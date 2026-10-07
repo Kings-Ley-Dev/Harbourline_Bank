@@ -1,6 +1,6 @@
 {
   "name": "harbourline-bank",
-  "version": "1.0.0",
+  "version": "1.0.0", 
   "private": true,
   "type": "module",
   "description": "Web-based banking management and client portal (MERN, Vercel, MongoDB Atlas)",
