@@ -15,8 +15,7 @@
     "optional": "optional",
     "all": "All",
     "show": "Show",
-    "hide": "Hide",
-    "demoNotice": "Harbourline Bank is a fictional bank created for an educational project. No real money or personal data is handled."
+    "hide": "Hide"
   },
   "status": {
     "active": "Active",
@@ -168,9 +167,9 @@
     "banking": "Banking",
     "help": "Help",
     "legal": "Legal",
-    "terms": "Terms (sample)",
-    "privacy": "Privacy (sample)",
-    "rights": "© {{year}} Harbourline Bank (demo). All rights reserved."
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "rights": "© {{year}} Harbourline Bank. All rights reserved."
   },
   "auth": {
     "loginTitle": "Log in to your accounts",

@@ -20,7 +20,6 @@ export function PublicLayout() {
   return (
     <>
       <a className="skip" href="#main">{t('nav.skip')}</a>
-      <div className="demo-bar">{t('common.demoNotice')}</div>
       <header className="site-header">
         <div className="container bar">
           <Link to="/" className="brand" aria-label="Harbourline Bank"><Logo /></Link>
@@ -79,7 +78,7 @@ export function PublicLayout() {
             <ul><li><a href="#main" onClick={(e) => e.preventDefault()}>{t('footer.terms')}</a></li><li><a href="#main" onClick={(e) => e.preventDefault()}>{t('footer.privacy')}</a></li></ul>
           </div>
         </div>
-        <div className="container foot-base"><p>{t('footer.rights', { year: new Date().getFullYear() })}</p><p>{t('common.demoNotice')}</p></div>
+        <div className="container foot-base"><p>{t('footer.rights', { year: new Date().getFullYear() })}</p></div>
       </footer>
     </>
   );
