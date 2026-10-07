@@ -1,4 +1,4 @@
-# Harbourline Bank – Web-Based Banking Management & Client Portal
+# Harbourline Bank: Web-Based Banking Management App
 
 MERN implementation of public banking website, secure client portal and administrative dashboard.
 
