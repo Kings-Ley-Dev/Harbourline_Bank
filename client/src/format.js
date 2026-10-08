@@ -1,4 +1,4 @@
-import { currentLang } from './i18n/index.js';
+import { currentLang } from './i18n/index.js';  
 
 const loc = () => (currentLang() === 'ar' ? 'ar-EG-u-nu-latn' : currentLang());
 
