@@ -1,5 +1,5 @@
-// Local development / local production-preview server ONLY. Not used on Vercel.
-import fs from 'node:fs';
+// Local development / local production-preview server ONLY. Not used in Production.
+import fs from 'node:fs';  
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import express from 'express';
