@@ -1,6 +1,6 @@
-import crypto from 'node:crypto';
-import { config } from './config.js';
-
+import crypto from 'node:crypto';  
+import { config } from './config.js'; 
+ 
 export class HttpError extends Error {
   constructor(status, code, message, details) {
     super(message);
