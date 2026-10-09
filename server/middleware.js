@@ -1,4 +1,4 @@
-import jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';   
 import { validationResult } from 'express-validator';
 import { config } from './config.js';
 import { HttpError, ah, sanitize } from './utils.js';
