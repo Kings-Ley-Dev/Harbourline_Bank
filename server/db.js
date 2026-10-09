@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from 'mongoose';  
 import { config } from './config.js';
 
 // Cache the connection across serverless invocations (Vercel reuses warm containers).
