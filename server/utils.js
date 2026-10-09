@@ -2,7 +2,7 @@ import crypto from 'node:crypto';
 import { config } from './config.js'; 
  
 export class HttpError extends Error {
-  constructor(status, code, message, details) {
+  constructor(status, code, message, details) {  
     super(message);
     this.status = status;
     this.code = code;
