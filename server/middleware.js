@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';   
-import { validationResult } from 'express-validator';
+import { validationResult } from 'express-validator';  
 import { config } from './config.js';
 import { HttpError, ah, sanitize } from './utils.js';
 import { User, Client } from './models/index.js';
