@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useSearchParams, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';  
 import { useAuth } from '../../auth.jsx';
 import { api, errMsg } from '../../api.js';
 import { AuthCard, Alert, Field, PasswordField } from '../../components/ui.jsx';
