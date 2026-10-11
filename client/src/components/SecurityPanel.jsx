@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import QRCode from 'qrcode';
 import { api, errMsg } from '../api.js';
 import { useAuth } from '../auth.jsx';
-import { Alert, Field, PasswordField } from './ui.jsx';
+import { Alert, Field, PasswordField } from './ui.jsx';  
 
 export function ChangePassword() {
   const { t } = useTranslation();
