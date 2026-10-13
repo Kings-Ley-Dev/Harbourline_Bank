@@ -6,7 +6,7 @@ MERN implementation of public banking website, secure client portal and administ
 React 18 + Vite · Node 20+/Express (served via a Vercel serverless function, **no `app.listen()` in production**) ·
 MongoDB Atlas + Mongoose · JWT in `httpOnly` cookies · bcrypt · TOTP MFA · i18next (en, fr, es, pt, ar with RTL).
 
-## Layout
+## Layout  
 ```
 api/index.js          Vercel serverless entry (exports the Express app)
 server/               Express app, models, routes, services, tests, seed script
