@@ -6,7 +6,7 @@
     { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/((?!api/|assets/|favicon.svg).*)", "destination": "/index.html" }
   ],
-  "headers": [
+  "headers": [  
     {
       "source": "/(.*)",
       "headers": [
