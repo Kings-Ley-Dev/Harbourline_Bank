@@ -1,5 +1,5 @@
 // Approved, static translations for outbound notifications.
-// Sensitive banking content is never machine-translated at runtime.
+// Sensitive banking content is never machine-translated at runtime.   
 const T = {
   en: {
     account_created: {
