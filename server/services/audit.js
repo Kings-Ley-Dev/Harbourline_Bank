@@ -1,4 +1,4 @@
-import { AuditLog } from '../models/index.js';
+import { AuditLog } from '../models/index.js';    
 
 const SENSITIVE = /pass|token|secret|code|hash|otp/i;
 
