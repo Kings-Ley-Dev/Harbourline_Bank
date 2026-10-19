@@ -2,7 +2,7 @@
 //   node server/scripts/seed.js                 -> creates the Super Admin only (production-safe)
 //   node server/scripts/seed.js --demo          -> also creates a demo staff user, demo client and sample transactions
 // Env: SEED_ADMIN_EMAIL, SEED_ADMIN_PASSWORD (random password is generated and printed once if omitted)
-import crypto from 'node:crypto';
+import crypto from 'node:crypto';   
 import bcrypt from 'bcryptjs';
 import mongoose from 'mongoose';
 import { config } from '../config.js';
